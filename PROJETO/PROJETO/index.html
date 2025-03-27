@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Inclusão Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="top-nav">
+        <ul>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#inscricoes">Inscrições</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="header-image-container">
+            <img src="imagens/capa.titulo.jpg.jpg" alt="Centro de Inclusão Digital">
+            <div class="image-overlay">
+                <h1>Centro de Inclusão Digital</h1>
+                <p>Santa Rosa de Viterbo - SP</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="atividades" class="section-container">
+        <h2>Atividades do Centro</h2>
+        <div class="content-box">
+            <img src="imagens/curso.jpg.jpg" alt="Atividades do Centro" class="section-image-right">
+            <p class="abnt-text">O Centro de Inclusão Digital oferece diversas atividades e oficinas com o objetivo de capacitar indivíduos nas habilidades digitais necessárias para o mundo moderno. As atividades são abertas à comunidade e voltadas para pessoas de todas as idades e níveis de habilidade. Nossos programas incluem treinamentos em informática básica, segurança digital, redes sociais, entre outros. Venha se capacitar conosco e desenvolver competências essenciais para o seu futuro!</p>
+        </div>
+    </section>
+
+    <section id="cursos" class="section-container">
+        <h2>Cursos: Aprenda Habilidades Digitais e de Inclusão</h2>
+        <div class="content-box">
+            <img src="imagens/evento.jpg.jpg" alt="Cursos de Inclusão Digital" class="section-image-right">
+            <p class="abnt-text">Oferecemos uma variedade de cursos voltados para a inclusão digital, com o objetivo de capacitar os participantes nas habilidades digitais fundamentais para o mercado de trabalho e para o dia a dia. Os cursos abordam diversos conteúdos, incluindo:</p>
+            <ul>
+                <li><strong>Informática Básica:</strong> Aprenda o básico sobre o uso de computadores, sistemas operacionais e aplicativos essenciais.</li>
+                <li><strong>Segurança Digital:</strong> Conheça práticas seguras para navegar na internet e proteger suas informações pessoais.</li>
+                <li><strong>Redes Sociais:</strong> Domine o uso das principais redes sociais, como Facebook, Instagram, e LinkedIn, para interagir e se conectar profissionalmente.</li>
+                <li><strong>Inclusão Digital:</strong> Aprofunde-se no uso de tecnologias digitais para inclusão social, acessibilidade e cidadania.</li>
+            </ul>
+            <p class="abnt-text">Os cursos são gratuitos e abertos para a comunidade. Após concluir o curso com mais de 70% de aproveitamento, você receberá um certificado de conclusão. É uma excelente oportunidade para expandir seus conhecimentos e melhorar suas chances no mercado de trabalho.</p>
+        </div>
+    </section>
+
+    <section id="eventos" class="section-container">
+        <h2>Eventos: Participe dos Nossos Eventos Educativos e Culturais</h2>
+        <div class="content-box">
+            <img src="imagens/integraçao.jpg.jpg" alt="Eventos" class="section-image-right">
+            <p class="abnt-text">Além dos cursos e atividades, o Centro de Inclusão Digital promove diversos eventos educativos e culturais, como workshops, palestras e exposições. Nosso objetivo é engajar a comunidade, promovendo a inclusão digital e o desenvolvimento de habilidades essenciais para o século XXI.</p>
+        </div>
+    </section>
+
+    <section id="inscricoes" class="section-container">
+        <h2>Inscrições</h2>
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="curso">Curso de Interesse:</label>
+            <select id="curso" name="curso" required>
+                <option value="informatica_basica">Informática Básica</option>
+                <option value="seguranca_digital">Segurança Digital</option>
+                <option value="redes_sociais">Redes Sociais</option>
+                <option value="inclusao_digital">Inclusão Digital</option>
+            </select>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Centro de Inclusão Digital. Todos os direitos reservados.</p>
+        <p>Endereço: Bosque Municipal, Santa Rosa de Viterbo - SP, 14270-000</p>
+        <p>Telefone: <a href="tel:+551639545836">(16) 3954-5836</a></p>
+    </footer>
+</body>
+</html>
