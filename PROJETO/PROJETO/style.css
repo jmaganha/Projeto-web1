@@ -125,6 +125,43 @@ h2 {
     flex-grow: 1; /* Garante que o texto ocupe o espaço restante */
 }
 
+#cursos-content {
+    display: flex;
+    justify-content: center;  
+    align-items: flex-start;  
+    margin-top: 20px;         
+}
+
+#curso-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;  
+}
+
+#curso-image {
+    max-width: 40%;           
+    height: auto;             
+}
+
+#curso-list {
+    max-width: 55%;  
+    list-style-type: none;         
+}
+
+#intro-text {
+    margin-bottom: 20px;     
+    text-align: center;   
+}
+
+#final-text {
+    text-align: center;       
+    margin-top: 20px;         
+    font-size: 1.1em;         
+}
+
+
+
 .abnt-text {
     text-align: justify;
     font-size: 1.2rem;
